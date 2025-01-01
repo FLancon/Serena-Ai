@@ -1,0 +1,309 @@
+{
+    "data": [
+        {
+            "id": 253239,
+            "account": {
+                "ownerId": 133049
+            },
+            "name": "Grand Studio Terrasse centre historique restaurant Nausicaa",
+            "propertyType": "apartment",
+            "currency": "EUR",
+            "address": "100 Rue des Pipots",
+            "city": "Boulogne-sur-Mer",
+            "state": "",
+            "country": "FR",
+            "postcode": "62200",
+            "latitude": 50.7241862,
+            "longitude": 1.6103057,
+            "phone": "+33681601822",
+            "mobile": "",
+            "fax": "",
+            "email": "lm.lancon@gmail.com",
+            "web": "",
+            "contactFirstName": "MATHIEU LANCON",
+            "contactLastName": "",
+            "checkInStart": "17:30",
+            "checkInEnd": "24:00",
+            "checkOutEnd": "07:00",
+            "offerType": "perRoom",
+            "controlPriority": 5,
+            "sellPriority": 10,
+            "bookingPageMultiplier": "",
+            "permit": "",
+            "roomChargeDisplay": "onePerBooking",
+            "templates": {
+                "template1": "",
+                "template2": "",
+                "template3": "",
+                "template4": "",
+                "template5": "",
+                "template6": "",
+                "template7": "",
+                "template8": ""
+            },
+            "bookingRules": {
+                "allowGuestCancellation": {
+                    "type": "never"
+                },
+                "bookingType": "autoConfirmed",
+                "bookingNearTypeDays": null,
+                "bookingNearType": "autoConfirmed",
+                "bookingExceptionalType": "blackoutPeriod",
+                "bookingExceptionalTypeStart": "2009-01-01",
+                "bookingExceptionalTypeEnd": "2009-01-01",
+                "bookingCutOffHour": 24,
+                "dailyPriceStrategy": "allowLower",
+                "dailyPriceType": "default",
+                "priceRounding": "none",
+                "vatRatePercentage": 10
+            },
+            "paymentCollection": {
+                "depositNonPayment": "cancel",
+                "depositPayment1": {
+                    "fixedAmount": 0,
+                    "variableAmount": {
+                        "type": "percentage",
+                        "percentageValue": 10
+                    }
+                },
+                "depositPayment2": {
+                    "fixedAmount": 0,
+                    "variableAmount": {
+                        "type": "percentage",
+                        "percentageValue": 100
+                    }
+                }
+            },
+            "paymentGateways": {
+                "stripe": {
+                    "type": "disable",
+                    "saveAllCards": false,
+                    "capture": true,
+                    "checkoutVersion": "embedded",
+                    "paymentDescription": ""
+                },
+                "asiapay": {
+                    "type": "disable"
+                },
+                "authorizenet": {
+                    "type": "disable"
+                },
+                "bitpay": {
+                    "type": "disable"
+                },
+                "borgun": {
+                    "type": "disable"
+                },
+                "creditCard": {
+                    "type": "disable"
+                },
+                "customGateway": {
+                    "type": "disable"
+                },
+                "globalPayments1": {
+                    "type": "disable"
+                },
+                "globalPayments2": {
+                    "type": "disable"
+                },
+                "offlinePayment": {
+                    "type": "disable"
+                },
+                "paymill": {
+                    "type": "disable"
+                },
+                "paypal": {
+                    "type": "disable"
+                }
+            },
+            "cardSettings": {
+                "cardRequireCVV": false,
+                "cardAcceptAmex": false,
+                "cardAcceptDiners": false,
+                "cardAcceptDiscover": false,
+                "cardAcceptEnroute": false,
+                "cardAcceptJcb": false,
+                "cardAcceptMaestro": false,
+                "cardAcceptMaster": true,
+                "cardAcceptUnionpay": false,
+                "cardAcceptVisa": true,
+                "cardAcceptVoyager": false
+            },
+            "groupKeywords": [],
+            "oneTimeVouchers": [],
+            "discountVouchers": [
+                {
+                    "number": 1,
+                    "phrase": "",
+                    "discount": 0,
+                    "type": "notUsed"
+                },
+                {
+                    "number": 2,
+                    "phrase": "",
+                    "discount": 0,
+                    "type": "notUsed"
+                },
+                {
+                    "number": 3,
+                    "phrase": "",
+                    "discount": 0,
+                    "type": "notUsed"
+                },
+                {
+                    "number": 4,
+                    "phrase": "",
+                    "discount": 0,
+                    "type": "notUsed"
+                },
+                {
+                    "number": 5,
+                    "phrase": "",
+                    "discount": 0,
+                    "type": "notUsed"
+                },
+                {
+                    "number": 6,
+                    "phrase": "",
+                    "discount": 0,
+                    "type": "notUsed"
+                },
+                {
+                    "number": 7,
+                    "phrase": "",
+                    "discount": 0,
+                    "type": "notUsed"
+                },
+                {
+                    "number": 8,
+                    "phrase": "",
+                    "discount": 0,
+                    "type": "notUsed"
+                }
+            ],
+            "featureCodes": [["DECK_PATIO_UNCOVERED"], ["NON_SMOKING_ROOMS"], ["PARKING_POSSIBLE"], ["WIND_SURFING"], ["CLEANING_DISINFECTANT"], ["HIKING"], ["CHECK_IN_OUT_SELF"], ["HEATING"], ["CLEANING_ENHANCED"], ["SMOKING_NOT_ALLOWED"]],
+            "bookingQuestions": {
+                "guestTitle": {
+                    "usage": "compulsoryBookingPage",
+                    "order": 1
+                },
+                "guestFirstName": {
+                    "usage": "compulsoryBookingPage",
+                    "order": 2
+                },
+                "guestLastName": {
+                    "usage": "compulsoryBookingPage",
+                    "order": 3
+                },
+                "guestEmail": {
+                    "usage": "compulsoryBookingPage",
+                    "order": 4
+                },
+                "guestPhone": {
+                    "usage": "optional",
+                    "order": 5
+                },
+                "guestMobile": {
+                    "usage": "optional",
+                    "order": 6
+                },
+                "guestFax": {
+                    "usage": "internal",
+                    "order": 7
+                },
+                "guestCompany": {
+                    "usage": "notUsed",
+                    "order": null
+                },
+                "guestAddress": {
+                    "usage": "optional",
+                    "order": 8
+                },
+                "guestCity": {
+                    "usage": "optional",
+                    "order": 9
+                },
+                "guestState": {
+                    "usage": "notUsed",
+                    "order": null
+                },
+                "guestPostcode": {
+                    "usage": "optional",
+                    "order": 10
+                },
+                "guestCountryText": {
+                    "usage": "notUsed",
+                    "order": 11
+                },
+                "guestCountrySelect": {
+                    "usage": "compulsoryBookingPage",
+                    "order": 12
+                },
+                "guestArrivalTime": {
+                    "usage": "optional",
+                    "order": 13
+                },
+                "guestComments": {
+                    "usage": "optional",
+                    "order": 14
+                },
+                "customQuestion1": {
+                    "usage": "notUsed",
+                    "order": 19,
+                    "type": "singleLineField"
+                },
+                "customQuestion2": {
+                    "usage": "notUsed",
+                    "order": 20,
+                    "type": "singleLineField"
+                },
+                "customQuestion3": {
+                    "usage": "notUsed",
+                    "order": 21,
+                    "type": "singleLineField"
+                },
+                "customQuestion4": {
+                    "usage": "notUsed",
+                    "order": 22,
+                    "type": "singleLineField"
+                },
+                "customQuestion5": {
+                    "usage": "notUsed",
+                    "order": 23,
+                    "type": "singleLineField"
+                },
+                "customQuestion6": {
+                    "usage": "notUsed",
+                    "order": 24,
+                    "type": "singleLineField"
+                },
+                "customQuestion7": {
+                    "usage": "notUsed",
+                    "order": 25,
+                    "type": "singleLineField"
+                },
+                "customQuestion8": {
+                    "usage": "notUsed",
+                    "order": 26,
+                    "type": "singleLineField"
+                },
+                "customQuestion9": {
+                    "usage": "notUsed",
+                    "order": 27,
+                    "type": "singleLineField"
+                },
+                "customQuestion10": {
+                    "usage": "notUsed",
+                    "order": 28,
+                    "type": "singleLineField"
+                }
+            },
+            "webhooks": {
+                "version": "twoWithPersonalData",
+                "url": " https://07bb-2a01-cb0c-1723-a300-95d0-8e1f-d6d1-91c8.ngrok-free.app/api/webhooks",
+                "additionalData": "none",
+                "customHeader": ""
+            }
+        }
+    ]
+}
