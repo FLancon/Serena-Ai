@@ -12,6 +12,7 @@ const createMenuModel = () => [
         items: [
             { label: t('menu.dashboard'), icon: 'pi pi-fw pi-home', to: '/pages/dashboard' },
             { label: t('menu.messages'), icon: 'pi pi-fw pi-inbox', to: '/pages/messages' },
+            { label: t('menu.listing'), icon: 'pi pi-fw pi-home', to: '/pages/listing' },
             { label: t('menu.product'), icon: 'pi pi-fw pi-shopping-bag', to: '/pages/products' },
             { label: t('menu.statistics'), icon: 'pi pi-fw pi-chart-bar', to: '/pages/statistic' }
         ]

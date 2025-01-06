@@ -33,7 +33,8 @@
         "product": "Produit",
         "statistics": "Statistiques",
         "administration": "Administration",
-        "users": "Utilisateurs"
+        "users": "Utilisateurs",
+        "listing": "Listing"
     },
     "form": {
         "welcomeTo": "Bienvenue sur",
